@@ -1,0 +1,23 @@
+{
+  "name": "ProjetoNextJs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/VictorGabrielBoeri/ProjetoNextJs.git",
+  "author": "victor3381 <victorgabrielboeri10@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "next": "^15.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  }
+}
